@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+}
+html { 
+    background: url(./backiee-229645.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eeb394;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border-radius: 0.5em;
+    background-color: #d1874f;
+    border-color: #d1874f;
+    margin: 2px;
+    color: #42251ab9;
+}
+
+#btnRemoveStyle {
+    background: transparent;
+    border: none;
+    padding: 1px;
+}
+
+#bgCard {
+    background-color: #e8dad426;
+    padding: 1em 1.5em;
+    border-radius: 2em;
+    box-shadow:  10px 10px 10px #121a1cc0;
+}
+
+#card {
+    background-color: #6a3c2ad9;
+    padding: 2em 4em;
+    border-radius: 2em;
+    box-shadow:  10px 10px 10px #342a288a;
+}
+
+#card h1, p {
+    display: flex;
+    justify-content: center;
+    margin: 5px 2px 5px 2px;
+}
+
+#divInput {
+    display: flex;
+    justify-content: center;
+    margin: 15px 2px 15px 2px;
+}
+
+#userInput {
+    border-radius: 0.5em;
+    border-color: #d1874f;
+    background-color: rgb(209, 181, 146);
+}
